@@ -1,0 +1,49 @@
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+  th {
+      background-color: lightgray;
+      font-weight: bold;
+}
+
+@media (min-width: 500px) {
+      body {
+          background-color: black;
+          color: yellow
+      }
+}
+
+  @media (max-width: 499px) {
+      body {
+          background-color: black;
+          color: white;
+      }
+}
+div{
+  margin: 20px;
+  padding: 30px;
+  border-collapse: collapse;
+}
+div{
+
+    p{
+      font-size: 18px;
+      color: white;
+    }
+
+}
+a:link {
+  color:purple;
+}
+a:visited {
+  color: blue
+}
